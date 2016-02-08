@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It was helpful to be able to quickly identify the lines that changed between
+    the two versions of the file, because that narrowed the lines where I had to
+    search for bugs.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Efficiency comes from the ability to quickly review all of the changes made to 
+    a file
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Cons:
+        - You may forget committing, making it less useful
+
+    Pros:
+        - You can freely choose when to commit, and doing it only when it makes sense
+        - It alllows to enter a commit message. If committing were automatic, it would
+          interrupt the work or nos save a commit message at all.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think it's because Git is oriented to coding, unlike Google docs, and in that case
+    files, and the changes made to them, are related to other files and their changes.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log can be used to search for specific commits, by using the commit message (or 
+    the date of the commit) to identify what changes where introduced (in general). Then,
+    using git diff we can see the specific changes comparing it with an older commit.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    By making sure that I can always recover the previous version that wasn't broken.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To store the code history of the projects I work in.
