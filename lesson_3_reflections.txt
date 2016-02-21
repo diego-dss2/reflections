@@ -1,1 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+Puedo utilizarlo como un respaldo de mi máquina local. Además, facilita compartir el trabajo y el repositorio con un equipo.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Podría ser que un commit no implique que el trabajo en curso esté completo, y que no quiera que sea visto hasta que lo esté.

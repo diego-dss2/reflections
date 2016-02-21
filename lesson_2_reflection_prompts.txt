@@ -6,3 +6,23 @@ A .git directory is created to store the change history of the repository. It’
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is a temporal place to store what will be committed. The working directory is the place where everything is stored and the repository is the destination of what’s in the staging area
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can chaek, for example, how many files have changed since the last commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+They would be helpful when distributing work between several developers, by making ine branch for each one of them and then merging them.
+
+How do the diagrams help you visualize the branch structure?
+
+Permiten ver gráficamente la estructura, de manera de entender qué commits / ramas son inalcanzables o donde se ha creado una nueva rama desde un commit antiguo
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+El resultado del merge es crear una sola rama, en la que se combinan los cambios realizados por las personas involucradas. Se representan en el diagrama de esa manera para mostrar la ascendencia de una rama.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Si no hay conflictos, automático puede ser más rápido. Sin embargo, al hacerlo, se tiene más control y se disminuyen las probabilidades de error.
