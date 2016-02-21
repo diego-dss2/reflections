@@ -16,3 +16,12 @@ Fork: lo mismo anterior pero ambas copias están en GitHub
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Diría que el beneficio es que al estar offline, aún se puede tener una idea del estado del remoto.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Lo más difícil sería validar la corrección los cambios realizados por otros antes de hacer el merge con el master branch. Lo más fácil sería mantener separados los cambios hechos por cada uno, sin perder la posibilidad de hacer el merge de todo cuando sea factible.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Cuando es necesaria la participación de otros miembros del equipo, puede ser más fácil que cada uno de ellos trabaje en sus propias ramas, de manera que luego se pueda tener mayor control sobre éstas y sobre cómo son incluidas las modificaciones y nuevos desarrollos en el repositorio.
